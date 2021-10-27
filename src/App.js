@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./components/FontawesomeIcons"
+import Nav from './components/Navigation';
+import Slogan from './components/Slogan';
+import Awareness from './components/Awareness';
+import Description from "./components/Description";
+import SevenR from "./components/SevenR";
+import Posters from "./components/Posters"
+import SingleUse from "./components/SingleUse";
+import { Events } from "./components/Events";
+import Partners from "./components/Partners";
+import Footer from "./components/Footer";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Nav />
+      <Slogan />
+      <Awareness />
+      <Description />
+      <SevenR />
+      <Posters />
+      <SingleUse />
+      <Events />
+      <Partners />
+      <Footer />
     </div>
   );
 }

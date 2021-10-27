@@ -1,13 +1,213 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.navbar {
+  background-color: #015450;
+}
+nav .navbar-nav li {
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 19px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.nav-item {
+  text-align: right;
+  margin-right: 10px;
+}
+@media screen and (min-width: 1200px) {
+  .navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    top: 28%;
+    transform: translatex(-50%);
+  }
+}
+/* ============================Slogan===================== */
+.slogan {
+  background-color: #015450;
+  position: relative;
+  text-align: center;
+  background-image: url("./Images/sloganBG.jpg");
+  height: 750pt;
+}
+.slogan p {
+  font-weight: 500;
+  letter-spacing: 10px;
+  font-family: "Alef", sans-serif;
+  font-size: 13ch;
+  width: 830px;
+  height: 229px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+@media screen and (max-width: 703px) {
+  .slogan {
+    height: 667px;
+  }
+  .slogan p {
+    margin-top: 50px;
+    height: 229px;
+    width: 375px;
+    letter-spacing: normal;
+    font-size: 60px;
+    font-weight: 100;
+  }
+}
+/* ============================Awareness================== */
+#awa1 h2,
+#awa2 h2,
+#awa3 h2,
+#awa4 h2 {
+  padding: 30px;
+}
+.box {
+  height: 500px;
+}
+#awa1 {
+  background-color: #000000;
+  color: white;
+}
+#awa2 {
+  background-color: #02bdb4;
+}
+#awa2 p {
+  color: white;
+}
+#awa3 {
+  background-color: #ffffff;
+}
+#awa3 h2 {
+  color: #4bd1a0;
+}
+#awa4 {
+  background-color: #4bd1a0;
+}
+#awa4 h2 {
+  color: white;
+}
+#bulb,
+#microphone,
+#pencil,
+#comment {
+  margin-top: 80px;
+}
+/* ============================Descreiption========================== */
+#desc-Col {
+  background-color: #3e3e3e;
+}
+#desc-Col h1 {
+  color: #629940;
+  margin-top: 80px;
+  padding-bottom: 40px;
+}
+#desc-Col p {
+  color: white;
+  text-align: justify;
+}
+#desc-Col1 {
+  background-color: #6e6e6e;
+  color: #ffffff;
+}
+#desc-Col2 {
+  background-image: url(./Images/Poster1.jpg);
+  height: 940px;
+}
+#dMicrophone {
+  margin-top: 100px;
+}
+#quote {
+  margin-top: 100px;
+}
+/* =============================SevenR================================ */
+#rowSeven {
+  background-color: #489c8c;
+}
+#img {
+  width: auto;
+}
+#slide {
+  height: 400px;
+  width: 640px;
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+#row {
+  padding-top: 30px;
+  background-image: url(./Images/7r_Background.jpg);
+  padding-bottom: 30px;
+}
+/*============================Posters=================================*/
+#poster {
+  margin: 4px;
+}
+#posterPar {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-image: url(./Images/Poster_Background.jpg);
+}
+/*============================Single-Use====================================*/
+#SingleusePar {
+  background-size: cover;
+  background-image: url(./Images/Singleuse_Background2.jpg);
+  background-repeat: no-repeat;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.Aborder {
+  border-radius: 60px;
+  background: rgba(68, 110, 93, 0.7);
+}
+#gifPic {
+  height: 150px;
+  width: auto;
+  float: left;
+}
+.Aborder p {
+  font-size: 30px;
+  color: white;
+}
+
+.plasticspon {
+  margin-left: 50px;
+}
+/*============================Events====================================*/
+#slide2 {
+  height: 750px;
+  width: auto;
+}
+#read {
+  border-radius: 60px;
+}
+.events {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(./Images/eventsBackground.jpg);
+}
+/*============================Partner====================================*/
+#partner1,
+#partner4,
+#partner5,
+#partner6 {
+  margin-top: 150px;
+}
+#partner2 {
+  margin-top: 170px;
+}
+#partner3 {
+  margin-top: 140px;
+}
+#partner7 {
+  margin-top: 50px;
+}
+.partner {
+  background-image: url(./Images/PartnerBackground.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*============================Footer====================================*/
+.footer {
+  background-color: #025955;
+}
+.footer p {
+  font-size: 35px;
 }
