@@ -1,5 +1,6 @@
 
 ![image_original2](https://github.com/MarcShayne-npc/CCC_website/assets/74227672/43e08583-118f-4bee-b4a8-83227397400c)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
